@@ -19,7 +19,7 @@ public class GoodsApp {
              
           } else {
              String[] Gds = str.split(",");
-             gList.add(new Goods(Gds[0], Integer.parseInt(Gds[1]), Integer.parseInt(Gds[2])));
+             gList.add(new Goods((Gds[0]), Integer.parseInt(Gds[1]), Integer.parseInt(Gds[2])));
           }
           
        }
